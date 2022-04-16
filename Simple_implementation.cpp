@@ -10,7 +10,7 @@ const ll no_of_element = 5;
 ll parent[no_of_element];
 
 void initializeDSU()
-{
+{ 
     for (ll i = 0; i < no_of_element; i++)
     {
         parent[i] = i;
@@ -18,7 +18,7 @@ void initializeDSU()
     }
 }
 
-ll findDSU(ll x)
+ll findDSU(ll &x)
 {
     // uska parent kaun hain
     // Time Complexity => O(N);
